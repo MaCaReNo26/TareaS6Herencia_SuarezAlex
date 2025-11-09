@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("=== SISTEMA DE MATRICULACIÓN VEHICULAR ===");
+        System.out.println("-----------|| SISTEMA DE MATRICULACIÓN VEHICULAR ||----------");
         System.out.print("Ingrese tipo de vehículo (auto/moto/camion): ");
         String tipo = sc.nextLine();
 
@@ -42,7 +42,7 @@ public class Main {
                 System.exit(0);
         }
 
-        System.out.println("\n=== DATOS DEL VEHÍCULO ===");
+        System.out.println("\n-----------|| DATOS DEL VEHÍCULO ||-----------");
         System.out.println("Propietario: " + v.getPropietario());
         System.out.println("Placa: " + v.getPlaca());
         System.out.println("Marca: " + v.getMarca());
